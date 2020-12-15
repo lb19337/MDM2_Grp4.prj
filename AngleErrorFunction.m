@@ -1,4 +1,4 @@
-function [] = ErrorFunction(initTheta)
+function [] = AngleErrorFunction(initTheta)
 
 syms x
 theta = ((initTheta)*exp(-x*(1/(initTheta))))*cos((pi*x)/(initTheta));
